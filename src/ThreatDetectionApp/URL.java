@@ -1,20 +1,20 @@
 package ThreatDetectionApp;
 
 public class URL extends input{
-	private String Uformat;
+	private String uformat;
 
-	public URL(int ID, String Content, String Uformat) {
+	public URL(int ID, String Content, String uformat) {
 		super(ID,Content);
 		
-		this.Uformat=Uformat;
+		this.uformat=uformat;
 	}
 
 	public String getUformat() {
 		
-		return Uformat;
+		return uformat;
 		
 	}
-	public void setUrlFormat(String urlFormat) {
-		
+	public void setUFormat(String uFormat) {
+	    this.uformat = uFormat;
 	}
 }

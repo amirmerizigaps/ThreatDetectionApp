@@ -17,6 +17,6 @@ public abstract class input {
         return Content;
     }
     public void setContent(String Content) {
-    	
+        this.Content = Content;
     }
 }
